@@ -1,0 +1,34 @@
+{{ define "main" }}
+
+    <h2>Summary of work experience</h2>
+
+    {{ $sections := .Site.Data.employers }}
+    {{ range $sections }}
+
+        <div style="border-bottom:1px solid;display: flex;justify-content: space-between;align-items: center">
+            <div style="display: flex;align-items: center">
+                <img class="company-logo" alt="logo" src="/images/{{ .logo  }}"/>&nbsp;
+                <span style="font-size: 1rem">{{ .name }}</span>
+            </div>
+            <div style="display: flex;align-items: center">
+                <span style="font-size: .7rem">{{ sub .endDate .startDate }} years&nbsp;</span>
+                <span style="font-size: .7rem">({{ .startDate }} to {{ .endDate }})</span>
+                &nbsp;<span class="material-symbols-outlined">event</span>
+            </div>
+        </div>
+            <div class="subHeading">
+                {{ .role }}
+            </div>
+        <div class="tech-icons">
+            {{ range .tech }}
+                <div class="icon">{{ partial "utils/techicon.html" . }}</div>
+            {{ end }}
+        </div>
+    {{ end }}
+
+
+
+
+
+{{ end }}
+

@@ -1,0 +1,75 @@
+[
+  {
+    "startDate": 2018,
+    "endDate": 2022,
+    "name": "BNZ",
+    "logo": "bnz.jpg",
+    "role": "Senior Software Engineer",
+    "tech": [
+      "devicon-react-original-wordmark",
+      "devicon-amazonwebservices-plain-wordmark",
+      "devicon-nodejs-plain-wordmark",
+      "devicon-spring-plain-wordmark",
+      "devicon-javascript-plain",
+      "devicon-oracle-plain"
+    ]
+  },
+  {
+    "startDate": 2018,
+    "endDate": 2018,
+    "name": "Hiplee",
+    "logo": "hiplee.jpg",
+
+    "role": "Senior Software Engineer",
+    "tech": [
+      "devicon-react-original-wordmark",
+      "devicon-amazonwebservices-plain-wordmark",
+      "devicon-javascript-plain"
+    ]
+  },
+  {
+    "startDate": 2017,
+    "endDate": 2018,
+    "name": "Solnet",
+    "role": "Tech Lead / Senior Software Engineer",
+    "logo": "solnet.jpg",
+    "tech": [
+      "devicon-angularjs-plain-wordmark",
+      "devicon-nodejs-plain-wordmark",
+      "devicon-spring-plain-wordmark",
+      "devicon-javascript-plain"
+    ]
+  },
+  {
+    "startDate": 2010,
+    "endDate": 2017,
+    "name": "BBD",
+    "logo": "bbd.jpg",
+    "role": "Tech Lead / Senior Software Engineer",
+    "tech": [
+      "devicon-angularjs-plain-wordmark",
+      "devicon-nodejs-plain-wordmark",
+      "devicon-mongodb-plain-wordmark",
+      "devicon-jquery-plain-wordmark",
+      "devicon-javascript-plain",
+      "devicon-dot-net-plain-wordmark",
+      "devicon-csharp-plain"
+    ]
+  },
+  {
+    "startDate": 2001,
+    "endDate": 2010,
+    "name": "Enerweb",
+    "role": "Software Engineer",
+    "logo": "enerweb.jpg",
+    "tech": [
+      "devicon-java-plain-wordmark",
+      "devicon-javascript-plain",
+      "devicon-oracle-plain",
+      "devicon-php-plain",
+      "devicon-mysql-plain-wordmark",
+      "devicon-dot-net-plain-wordmark",
+      "devicon-csharp-plain"
+    ]
+  }
+]

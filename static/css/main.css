@@ -1,0 +1,46 @@
+.tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .4rem;
+    align-items: center;
+    justify-content: center;
+
+    .icon {
+        padding: 1.2rem;
+
+        .icon-size {
+            font-size: 5rem;
+        }
+    }
+
+}
+
+.company-logo {
+    border-radius: 15px;
+    width: 46px;
+    height: 46px;
+    padding: 10px;
+}
+
+.subHeading {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 820px) {
+
+    .company-logo {
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .tech-icons {
+        .icon {
+            padding: .5rem;
+
+            .icon-size {
+                font-size: 3rem;
+            }
+        }
+    }
+
+}
